@@ -1,0 +1,204 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background: #a0c9fd;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #94c4f8;
+    box-shadow: 1px 1px 50px #8daeff;
+    position: fixed;
+    top: 2px;
+}
+
+#menu{
+    width: 750px;
+    padding-top: 5px;
+    margin: auto;
+}
+
+#menu ul a{
+    color: #000;
+    text-decoration: none;
+    font: 16px;
+    padding: 13px 20px 19px 20px;
+}
+
+/*----------EFECTO HOVER--------*/
+#menu ul a:hover{
+    color: #f2f2f2;
+    background: #4f126c;
+}
+.logo{
+    position: static;
+    margin-top: 40px;
+}
+p{
+    color: #fff;
+}
+img{
+    max-width: 100%;
+}
+.container-all{
+    position: relative;
+    max-width: 1000px;
+    width: 100%;
+    overflow: hidden;
+}
+.slide{
+    display: flex;
+    transform: translate3d(0,0,0);
+    transition: all 600ms;
+    animation-name: autoplay;
+    animation-duration: 6.5s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+.item-slide{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-grow: 0;
+    max-width: 100%;
+}
+.pagina{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.pagina-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #fff;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    cursor: pointer;
+    background: #fff;
+    margin: 0 10px;
+    text-align: center;
+    transition: all 300ms;
+}
+.pagina-item:hover{
+    transform: scale(2);
+}
+.pagina-item img{
+    display: inline-block;
+    max-width: none;
+    height: 100%;
+    transform: scale(1);
+    opacity: 0;
+    transition: all 300ms;
+}
+.pagina-item:hover img{
+    opacity: 1;
+    transform: scale(1);
+}
+
+/*----------input 1----------*/
+input[id="1"]:checked ~ .slide{
+    animation: none;
+    transform: translate3d(0,0,0);
+}
+input[id="1"]:checked ~ .pagina .pagina-item[for="1"]{
+    background: #fff;
+}
+
+/*----------input 2----------*/
+input[id="2"]:checked ~ .slide{
+    animation: none;
+    transform: translate3d(calc(-100% * 1),0,0);
+}
+input[id="2"]:checked ~ .pagina .pagina-item[for="2"]{
+    background: #fff;
+}
+
+/*----------input 3----------*/
+input[id="3"]:checked ~ .slide{
+    animation: none;
+    transform: translate3d(calc(-100% * 2),0,0);
+}
+input[id="3"]:checked ~ .pagina .pagina-item[for="3"]{
+    background: #fff;
+}
+
+/*----------input 4----------*/
+input[id="4"]:checked ~ .slide{
+    animation: none;
+    transform: translate3d(calc(-100% * 3),0,0);
+}
+input[id="4"]:checked ~ .pagina .pagina-item[for="4"]{
+    background: #fff;
+}
+
+/*----------input 5----------*/
+input[id="5"]:checked ~ .slide{
+    animation: none;
+    transform: translate3d(calc(-100% * 4),0,0);
+}
+input[id="5"]:checked ~ .pagina .pagina-item[for="5"]{
+    background: #fff;
+}
+
+.absolute{
+    position: absolute;
+    top: 80px;
+    right: 20;
+    max-width: 1000px;
+    width: 100%;
+    border: 3px solid #73AD21;
+    margin-top: 220px;
+}
+
+@keyframes autoplay{
+    20%{transform: translate3d(calc(-100% * 0), 0, 0);}
+    40%{transform: translate3d(calc(-100% * 1), 0, 0);}
+    60%{transform: translate3d(calc(-100% * 2), 0, 0);}
+    80%{transform: translate3d(calc(-100% * 3), 0, 0);}
+    100%{transform: translate3d(calc(-100% * 4), 0, 0);}
+}
+
+/*----------Carrusel Responsive----------*/
+/*#contenedor figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s contenedor infinite;
+}
+
+#contenedor figure img{
+    width: 20%;
+    float: left;
+}
+
+@keyframes conenedor{
+    0% {left: 0;}
+    20% {left: 0;}
+
+    25% {left: -100%;}
+    45% {left: -100%;}
+
+    50% {left: -200%;}
+    70% {left: -200%;}
+
+    75% {left: -300%;}
+    95% {left: -300%;}
+
+    100% {left: -400%;}
+}*/

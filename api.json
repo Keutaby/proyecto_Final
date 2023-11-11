@@ -1,0 +1,85 @@
+[
+    {
+        "precio": 89.00, 
+        "id": 1, 
+        "title": "Halftone Lightdrop Back One Piece", 
+        "thumbnailUrl": "https://ileac-churn.000webhostapp.com/projecto%20final,%20images/woman/HALFTONE%20LIGHTDROP%20BACK%20ONE%20PIECE.webp"
+    }, 
+
+    {
+        "precio": 89.00, 
+        "id": 2, 
+        "title": "Hydrangea Bouquet Light Drop Back One Piece", 
+        "thumbnailUrl": "https://ileac-churn.000webhostapp.com/projecto%20final,%20images/woman/HYDRANGEA%20BOUQUET%20LIGHT%20DROP%20BACK%20ONE%20PIECE.webp"
+    }, 
+
+    {
+        "precio": 51.80, 
+        "id": 3, 
+        "title": "Falling Leaves Booster Back One Piece", 
+        "thumbnailUrl": "https://ileac-churn.000webhostapp.com/projecto%20final,%20images/woman/FALLING%20LEAVES%20BOOSTER%20BACK%20ONE%20PIECE.webp"
+    }, 
+
+    {
+        "precio": 50.40, 
+        "id": 4, 
+        "title": "Slow Motion XCROSS Back One Piece", 
+        "thumbnailUrl": "https://ileac-churn.000webhostapp.com/projecto%20final,%20images/woman/SLOW%20MOTION%20XCROSS%20BACK%20ONE%20PIECE.webp"
+    }, 
+
+    {
+        "precio": 33.60, 
+        "id": 5, 
+        "title": "All Over Jammer", 
+        "thumbnailUrl": "https://ileac-churn.000webhostapp.com/projecto%20final,%20images/men/ALL%20OVER%20JAMMER.webp"
+    }, 
+
+    {
+        "precio": 60.00, 
+        "id": 6, 
+        "title": "Hydrange Bouquet Jammer", 
+        "thumbnailUrl": "https://ileac-churn.000webhostapp.com/projecto%20final,%20images/men/HYDRANGE%20BOUQUET%20JAMMER.webp"
+    }, 
+
+    {
+        "precio": 33.60, 
+        "id": 7, 
+        "title": "Crazy ARENA Jammer", 
+        "thumbnailUrl": "https://ileac-churn.000webhostapp.com/projecto%20final,%20images/men/CRAZY%20ARENA%20JAMMER.webp"
+    }, 
+
+    {
+        "precio": 54.00, 
+        "id": 8, 
+        "title": "Team Solid Jammer", 
+        "thumbnailUrl": "https://ileac-churn.000webhostapp.com/projecto%20final,%20images/men/TEAM%20SOLID%20JAMMER.webp"
+    }, 
+
+    {
+        "precio": 25.00, 
+        "id": 9, 
+        "title": "Freeflow Pull Buoy", 
+        "thumbnailUrl": "https://ileac-churn.000webhostapp.com/projecto%20final,%20images/equipment/FREEFLOW%20PULL%20BUOY%20II.webp"
+    }, 
+
+    {
+        "precio": 22.00, 
+        "id": 10, 
+        "title": "Club Kickboard", 
+        "thumbnailUrl": "https://ileac-churn.000webhostapp.com/projecto%20final,%20images/equipment/CLUB%20KIT%20KICKBOARD,%20side.webp"
+    }, 
+
+    {
+        "precio": 60.00, 
+        "id": 11, 
+        "title": "Powerfin Pro", 
+        "thumbnailUrl": "https://ileac-churn.000webhostapp.com/projecto%20final,%20images/equipment/POWERFIN%20PRO.webp"
+    }, 
+
+    {
+        "precio": 22.00, 
+        "id": 12, 
+        "title": "Elite Hand Paddle", 
+        "thumbnailUrl": "https://ileac-churn.000webhostapp.com/projecto%20final,%20images/equipment/ELITE%20HAND%20PADDLE%20II,%20side.webp"
+    }
+]

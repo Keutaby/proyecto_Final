@@ -1,0 +1,32 @@
+header{
+    color: purple;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+body{
+    color: black;
+    background-color: aliceblue;
+}
+.container{
+    background-color: aliceblue;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+table{
+    background-color: aliceblue;
+}
+.table{
+    background-color: azure;
+}
+#template-carrito{
+    background-color: blue;
+}
+footer{
+    color: purple;
+    background-color: aliceblue;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
